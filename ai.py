@@ -1,8 +1,5 @@
 from __future__ import print_function
-from turtle import back
-
-from numpy import empty
-from game import sd_peers, sd_spots, sd_domain_num, sd_domain, init_domains, \
+from game import sd_peers, sd_spots, sd_domain_num, init_domains, \
     restrict_domain, SD_DIM, SD_SIZE
 import random, copy
 from collections import deque
